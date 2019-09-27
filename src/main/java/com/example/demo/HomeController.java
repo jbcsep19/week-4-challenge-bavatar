@@ -10,9 +10,14 @@ public class HomeController {
         return "homepage";
     }
 
-    @RequestMapping("/about")
-    public String about() {
+    @RequestMapping("/aboutauthor")
+    public String aboutauthor() {
         return "aboutauthor";
+    }
+
+    @RequestMapping("/aboutbootcamp")
+    public String aboutbootcamp() {
+        return "aboutbootcamp";
     }
 
     @RequestMapping("/abstraction")

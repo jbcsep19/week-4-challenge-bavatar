@@ -5,10 +5,31 @@
     <title>OO Composition</title>
     <div th:insert="base::header"></div>
 </head>
-<body>
+<body style="background-color: azure">
 <!-- Navigation bar-->
 <div th:insert="base :: navbar"></div>
+<br>
+<div class="container" style="background-color: lightgoldenrodyellow">
+    <h3>Java Composition</h3>
+    <font size="-2"><i> 28 July 2017</i></font>
+<pre>
+Composition is process of building complex objects from simple ones. This type of relationship is a containing relationship.
+It uses OO principles to achieve greater simplicity, maintainability and re-use of code.
+</pre>
 
+<b><h5>Main benefits of composition</h5></b>
+<pre>
+You can find such relationships quite regularly in the real world. A car, for example, has an engine and modern coffee
+machines often have an integrated grinder and a brewing unit.
+
+Given its broad use in the real world, it’s no surprise that composition is also commonly used in carefully designed
+software components. When you use this concept, you can:
+</pre>
+<li>reuse existing code</li>
+<li>design clean APIs</li>
+<li>change the implementation of a class used in a composition without adapting any external clients</li>
+
+</div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
